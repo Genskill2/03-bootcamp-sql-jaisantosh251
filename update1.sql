@@ -1,3 +1,3 @@
 UPDATE publisher
 SET name='Prentice Hall'
-WHERE id=1;
+WHERE Country = "India"
