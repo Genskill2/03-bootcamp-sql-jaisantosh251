@@ -1,2 +1,1 @@
-SELECT b.title, p.name FROM books b, publisher p 
-WHERE b.publisher=p.id AND (publisher=5 OR publisher=6);
+select b.title , p.name from books b , publisher p where p.id  = b.publisher and p.country = 'UK';
