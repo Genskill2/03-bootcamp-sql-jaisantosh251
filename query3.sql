@@ -1,2 +1,1 @@
-SELECT b.title FROM books b, books_subjects bs
-WHERE b.id=bs.book AND subject IN(3,8);
+select b.title from books b , subjects s , books_subjects p where b.id = p.book and s.id = p.subject and s.name in ( 'Technology','Politics'); 
