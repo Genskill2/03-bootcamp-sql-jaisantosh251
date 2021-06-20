@@ -1,3 +1,1 @@
-UPDATE publisher
-SET name='Prentice Hall'
-WHERE country = "India";
+update publisher set name = 'Prentice Hall' where country ='India';
